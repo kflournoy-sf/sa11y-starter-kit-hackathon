@@ -33,9 +33,7 @@ This is a sample application that demonstrates how to build applications with Li
 
     1. In the productCard component, uncomment the HTML code for the unordered list starting on line 3. Note that it has an accessibility error (UL tags should not contain a DIV tag).
 
-    2. Add a new Sa11y Jest test to your application in the productCard.test.js file. Look at existing tests for other components for examples, or read the [Sa11y documentation](https://github.com/salesforce/sa11y#jest-integration).
-
-    If you get stuck, look at our answer in the productCard.test.js.ANSWER file.
+    2. Add a new Sa11y Jest test to your application in the productCard.test.js file. Look at existing tests for other components for examples, or read the [Sa11y documentation](https://github.com/salesforce/sa11y#jest-integration). _Hint: if you get stuck, look at our answer in the productCard.test.js.ANSWER file._
 
     3. Verify that your new Sa11y test produces a failure for your inaccessible code.
 
@@ -53,6 +51,4 @@ This is a sample application that demonstrates how to build applications with Li
 
 8. Now it's time to add Sa11y to your own projects, and share what you've learned with your team!
 
-<div style="text-align: center; margin-top: 1rem;">
-    <img src="https://miro.medium.com/max/752/1*pWxFv3VdPcLEFgPoZ5Nnrw.jpeg" alt="A man pointing at the camera with flames behind him, and meme text that reads 'Inaccessible Code: Check-In Gets Bounced" />
-</div>
+<img src="https://miro.medium.com/max/752/1*pWxFv3VdPcLEFgPoZ5Nnrw.jpeg" alt="A man pointing at the camera with flames behind him, and meme text that reads 'Inaccessible Code: Check-In Gets Bounced" />
