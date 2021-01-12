@@ -1,4 +1,16 @@
 <template>
+    <!-- UNORDERED LIST SHOULD NOT HAVE DIV INSIDE OF UL TAG -->
+    <ul>
+        <div>
+            <li>
+                <a href="/lightning/o/Product__c/home">View All Products</a>
+            </li>
+            <li>
+                <a href="/lightning/o/Order__c/home">View Reseller Orders</a>
+            </li>
+        </div>
+    </ul>
+
     <lightning-card icon-name="standard:apex_plugin">
         <template if:true={recordId}>
             <span slot="title">{productName}</span>
