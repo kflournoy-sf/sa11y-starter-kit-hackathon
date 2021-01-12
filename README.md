@@ -24,11 +24,19 @@
     Helpful hint: run this command to have your tests automatically update as you save files:
 
     ```
-    npm run test:unit
+    npm run test:unit:watch
     ```
-
--   Test your application with a screen reader to verify your changes [link to tutorials]
 
 -   Add a Sa11y test for [something here]
 
-5. Check out the "sa11y-hackathon-walkthrough-answers" branch for suggested solutions to fix Sally failures.
+5. Test your application with a screen reader to verify your changes
+
+    - VoiceOver Tutorial
+    - NVDA Tutorial
+    - JAWS Tutorial
+
+6. Check out the "sa11y-hackathon-walkthrough-answers" branch for suggested solutions to fix Sally failures.
+
+7. Now it's time to add Sa11y to your own projects, and share what you've learned with your team!
+
+<img src="https://miro.medium.com/max/752/1*pWxFv3VdPcLEFgPoZ5Nnrw.jpeg" alt="A man pointing at the camera with flames behind him, and meme text that reads 'Inaccessible Code: Check-In Gets Bounced" />
