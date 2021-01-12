@@ -1,6 +1,10 @@
 # sa11y-starter-kit-hackathon
 
+## Introduction
+
 This is a sample application that demonstrates how to build applications with Lightning Web Components and test with the [Sa11y automation library](https://github.com/salesforce/sa11y).
+
+## Steps
 
 1. Set up your environment. Follow the steps in the [E-Bikes Sample Project](https://github.com/trailheadapps/ebikes-lwc/blob/master/README.md), but use this repository instead of the e-bikes repository.
 
