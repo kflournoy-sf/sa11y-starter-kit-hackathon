@@ -21,6 +21,12 @@
     -   Incorrect header level in [insert items here]
     -   Invalid aria atribute in [insert items here]
 
+    Helpful hint: run this command to have your tests automatically update as you save files:
+
+    ```
+    npm run test:unit
+    ```
+
 -   Test your application with a screen reader to verify your changes [link to tutorials]
 
 -   Add a Sa11y test for [something here]
