@@ -47,8 +47,8 @@ This is a sample application that demonstrates how to build applications with Li
     - [NVDA Tutorial](https://www.afb.org/blindness-and-low-vision/using-technology/assistive-technology-videos/learn-nvda)
     - [JAWS Tutorial](https://www.freedomscientific.com/training/jaws/getting-started/)
 
-7. Check out the "walkthrough-answers" branch for suggested solutions to fix Sally failures.
+## Conclusion
 
-8. Now it's time to add Sa11y to your own projects, and share what you've learned with your team!
+Now it's time to add Sa11y to your own projects, and share what you've learned with your team!
 
 <img src="https://miro.medium.com/max/752/1*pWxFv3VdPcLEFgPoZ5Nnrw.jpeg" alt="A man pointing at the camera with flames behind him, and meme text that reads 'Inaccessible Code: Check-In Gets Bounced" />
