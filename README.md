@@ -19,9 +19,9 @@ This is a sample application that demonstrates how to build applications with Li
 
 -   Fix all current Sa11y failures until you have all tests passing.
 
-    -   Missing alt text in [insert items here]
-    -   Incorrect header level in [insert items here]
-    -   Invalid aria atribute in [insert items here]
+    -   Missing alt attribute on an image in productListItem component
+    -   Invalid aria attribute on an H3 tag in productTileList component
+    -   Link is missing discernible text in productFilter component
 
     Helpful hint: use this command to have your tests automatically run as you save files, so that you can see which tests are still failing:
 
@@ -31,11 +31,21 @@ This is a sample application that demonstrates how to build applications with Li
 
 5. Add a new Sa11y test
 
-    1. Add new HTML to a feature, with an accessibility error
-        - Suggestion:
-    2. Add a new Sa11y test to your application
+    1. Add the following HTML to the productCard component. Note that it has an accessibility error (UL tags should not contain a DIV tag).
+
+    ```
+    <ul>
+        <div>
+            <li>Test item 1</li>
+            <li>Test item 2</li>
+        </div>
+    </ul>
+    ```
+
+    2. Add a new Sa11y Jest test to your application. Look at existing tests for other components for examples, or read the [Sa11y documentation](https://github.com/salesforce/sa11y#jest-integration)
     3. Verify that your new Sa11y test produces a failure for your inaccessible code
-    4. Fix the error and verify that your new Sa11y test now runs without an error
+    4. Fix the error (remove the DIV tag)
+    5. Verify that your new Sa11y test now runs without an error
 
 6. Test your application with a screen reader to verify that all of your changes will also work for screen reader users.
 
@@ -43,7 +53,7 @@ This is a sample application that demonstrates how to build applications with Li
     - [NVDA Tutorial](https://www.afb.org/blindness-and-low-vision/using-technology/assistive-technology-videos/learn-nvda)
     - [JAWS Tutorial](https://www.freedomscientific.com/training/jaws/getting-started/)
 
-7. Check out the "sa11y-hackathon-walkthrough-answers" branch for suggested solutions to fix Sally failures.
+7. Check out the "walkthrough-answers" branch for suggested solutions to fix Sally failures.
 
 8. Now it's time to add Sa11y to your own projects, and share what you've learned with your team!
 
