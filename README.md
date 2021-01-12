@@ -31,21 +31,17 @@ This is a sample application that demonstrates how to build applications with Li
 
 5. Add a new Sa11y test
 
-    1. Add the following HTML to the productCard component. Note that it has an accessibility error (UL tags should not contain a DIV tag).
+    1. In the productCard component, uncomment the HTML code for the unordered list starting on line 3. Note that it has an accessibility error (UL tags should not contain a DIV tag).
 
-    ```
-    <ul>
-        <div>
-            <li>Test item 1</li>
-            <li>Test item 2</li>
-        </div>
-    </ul>
-    ```
+    2. Add a new Sa11y Jest test to your application in the productCard.test.js file. Look at existing tests for other components for examples, or read the [Sa11y documentation](https://github.com/salesforce/sa11y#jest-integration).
 
-    2. Add a new Sa11y Jest test to your application. Look at existing tests for other components for examples, or read the [Sa11y documentation](https://github.com/salesforce/sa11y#jest-integration)
-    3. Verify that your new Sa11y test produces a failure for your inaccessible code
-    4. Fix the error (remove the DIV tag)
-    5. Verify that your new Sa11y test now runs without an error
+    If you get stuck, look at our answer in the productCard.test.js.ANSWER file.
+
+    3. Verify that your new Sa11y test produces a failure for your inaccessible code.
+
+    4. Fix the error (remove the DIV tag from the UL tag).
+
+    5. Verify that your new Sa11y test now runs without an error.
 
 6. Test your application with a screen reader to verify that all of your changes will also work for screen reader users.
 
