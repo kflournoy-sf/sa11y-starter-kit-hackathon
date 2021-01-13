@@ -8,15 +8,13 @@ This is a sample application that demonstrates how to build applications with Li
 
 1. Set up your environment. Follow the steps in the [E-Bikes Sample Project](https://github.com/trailheadapps/ebikes-lwc/blob/master/README.md), but use this repository instead of the e-bikes repository.
 
-2. Verify that you are able to run local unit tests. All tests should pass by default.
+2. Verify that you are able to run local unit tests. You should receive a number of test errors (7 failed, 67 passed, 74 total)
 
     ```
     npm run test:unit
     ```
 
-3. Check out the "sa11y-hackathon-walkthrough" branch. Run tests again, and you will see a number of Sa11y test failures.
-
-4. Complete the challenge tasks below. When you want to deploy your changes, remember to use this command:
+3. Complete the challenge tasks below. When you want to deploy your changes and view them in your org, remember to use this command:
     ```
     sfdx force:source:deploy -p force-app
     ```
@@ -35,7 +33,7 @@ This is a sample application that demonstrates how to build applications with Li
 
 5. Add a new Sa11y test
 
-    1. In the productCard component, uncomment the HTML code for the unordered list starting on line 3. Note that it has an accessibility error (UL tags should not contain a DIV tag).
+    1. Look in the productCard component - the HTML code for the unordered list starting on line 3 has an accessibility error (UL tags should not contain a DIV tag).
 
     2. Add a new Sa11y Jest test to your application in the productCard.test.js file. Look at existing tests for other components for examples, or read the [Sa11y documentation](https://github.com/salesforce/sa11y#jest-integration). _Hint: if you get stuck, look at our answer in the productCard.test.js.ANSWER file._
 
