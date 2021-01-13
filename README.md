@@ -6,9 +6,10 @@ This is a sample application that demonstrates how to build applications with Li
 
 ## Steps
 
-1. Set up your environment. Follow the steps in the [E-Bikes Sample Project](https://github.com/trailheadapps/ebikes-lwc/blob/master/README.md), but use this repository instead of the e-bikes repository.
+1. Set up your coding environment and deploy to Salesforce:
+- Follow the steps in the [E-Bikes Sample Project](https://github.com/trailheadapps/ebikes-lwc/blob/master/README.md), but use the code in this repository instead.
 
-2. Verify that you are able to run local unit tests. You should receive a number of test errors (7 failed, 67 passed, 74 total)
+2. Verify that you are able to run local unit tests. You should receive a number of test errors. Make a note of the number for our quiz.
 
     ```
     npm run test:unit
