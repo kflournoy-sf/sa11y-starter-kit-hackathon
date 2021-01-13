@@ -9,5 +9,10 @@ describe('c-product-list-item', () => {
         }
     });
 
-    // ADD NEW SA11Y TEST BELOW FOR PRODUCTCARD
+    // example test so that Jest doesn't complain
+    test('two plus two is four', () => {
+        expect(2 + 2).toBe(4);
+    });
+
+    // ADD NEW SA11Y TEST HERE FOR PRODUCTCARD
 });
