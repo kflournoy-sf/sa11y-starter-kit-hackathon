@@ -21,8 +21,9 @@ This is a sample application that demonstrates how to build applications with Li
 
 -   Fix all current Sa11y failures until you have all tests passing.
 
-    -   Missing alt attribute on an image in productListItem component
-    -   Invalid aria attribute on an H3 tag in productTileList component
+    -   Missing alt attribute on image tag in productListItem component
+    -   Invalid aria attribute on a heading in productTileList component [`aria-levl="2"`]
+    -   Invalid role value on a heading in productTileList component [`role="headng"`]
     -   Link is missing discernible text in productFilter component
 
     Helpful hint: use this command to have your tests automatically run as you save files, so that you can see which tests are still failing:
